@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-8943279217968567">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456" crossorigin="anonymous"></script>
+    <title>Trang Chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="seed.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/image/logo.png" />
+</head>
+
+<body>
+    <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  disabled" style="color:white;margin-top: 5px;"><img src="/image/logo.png" width="80"
+                    height="50">Dong Chuyen Nghiep</a>
+            <button class="navbar-toggler color-expand" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:white" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:white" href="#">League of Legends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:white" href="teamfight_tactics.html">Teamfight Tactics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color:white" href="vongxepseed.html">Arena Of Valor</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+        <a href="#day1" class="w3-bar-item w3-button linkElements custom-focus">NGÀY 1</a>
+        <a href="#day2" class="w3-bar-item w3-button linkElements">NGÀY 2</a>
+        <a href="#day3" class="w3-bar-item w3-button linkElements">NGÀY 3</a>
+        <a href="#bxh" class="w3-bar-item w3-button linkElements">BẢNG XẾP HẠNG</a>
+      </div>
+      
+    <!--Phan A-->
+    <div id="day1" class="group groupA">
+        
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776; Chọn ngày hoặc bxh</button>
+            
+        </div>
+
+        <div class="w3-container">
+
+            <div class="cac-vong">
+                <ul class="category">
+                    <li><a href="/AOVvongxepseed.html">Vòng xếp hạt giống</a></li>
+            <li><a href="/AOVbracket-play-in.html">Vòng play-in</a></li>
+            <li><a href="/delayopentime.html">Vòng bảng</a></li>
+            <li><a href="/delayopentime.html">Vòng play-off</a></li>
+                </ul>
+            </div>
+
+            <div id="table_fixture_A" class="table_fixture_A">
+                    <h3>Ngày thi đấu 1</h3>
+                <div id='table_fixture_A'></div>
+            </div>
+
+            
+        </div>
+    </div>
+<!--Phan B-->
+    
+    <div id="day2" class="group groupB">
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776; Chọn ngày hoặc bxh</button>
+        </div>
+        <div class="w3-container">
+            <div class="cac-vong">
+                <ul class="category">
+                    <li><a href="vongxepseed.html">Vòng xếp hạt giống</a></li>
+                    <li><a href="AOVbracket-play-in.html">Vòng play-in</a></li>
+                    <li><a href="delayopentime.html">Vòng bảng</a></li>
+                    <li><a href="delayopentime.html">Vòng play-off</a></li>
+                </ul>
+            </div>
+
+            <div id="table_fixture_B" class="table_fixture_B">
+                <h3>Ngày thi đấu 2</h3>
+                <div id='table_fixture_B'></div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <!--Phan C-->
+    
+    <div id="day3" class="group groupC">
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776; Chọn ngày hoặc bxh</button>
+        </div>
+        <div class="w3-container">
+            <div class="cac-vong">
+                <ul class="category">
+                    <li><a href="vongxepseed.html">Vòng xếp hạt giống</a></li>
+                    <li><a href="AOVbracket-play-in.html">Vòng play-in</a></li>
+                    <li><a href="delayopentime.html">Vòng bảng</a></li>
+                    <li><a href="delayopentime.html">Vòng play-off</a></li>
+                </ul>
+            </div>
+            <div id="table_fixture_C" class="table_fixture_C">
+                <h3>Ngày thi đấu 3</h3>
+                <div id='table_fixture_C'></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Phan D-->
+    
+    <div id="bxh" class="group groupD">
+        <div class="w3-teal">
+            <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open() ">&#9776; Chọn ngày hoặc bxh</button>
+        </div>
+
+        <div class="w3-container">
+            <div class="cac-vong">
+                <ul class="category">
+                    <li><a href="vongxepseed.html">Vòng xếp hạt giống</a></li>
+                    <li><a href="AOVbracket-play-in.html">Vòng play-in</a></li>
+                    <li><a href="delayopentime.html">Vòng bảng</a></li>
+                    <li><a href="delayopentime.html">Vòng play-off</a></li>
+                </ul>
+            </div>
+            <h3> BẢNG XẾP HẠNG</h3>
+            <div class="table_rank_D" style="overflow-x: auto;">
+                
+                <table class="my-table">
+                    <thead>
+                        <tr class="title">
+                            <th scope="col" id="rank">Rank</th>
+                            <th scope="col" id="logo"></th>
+                            <th scope="col" id="lop">Lớp</th>
+                            <th scope="col" id="match">Trận</th>
+                            <th scope="col" id="win">Thắng</th>
+                            <th scope="col" id="lose">Thua</th>
+                            <th scope="col" id="win">K</th>
+                            <th scope="col" id="lose">D</th>
+                            <th scope="col" id="win">Hiệu số</th>
+                            <th scope="col" id="total-point">Điểm</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_ranktable_D">
+                        <!-- The table body will be populated with data dynamically -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <script src="sidebar.js"></script>
+    <script src="focus_link.js"></script>
+    <script src="day1.js"></script>
+    <script src="day2.js"></script>
+    <script src="day3.js"></script>
+    <script src="bxhseed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
